@@ -6,5 +6,7 @@ Modèle de départ léger en PHP natif fournissant une classe `Database` basée 
 
 ```text
 ├── db/
-│   └── Database.php    # Classe Singleton de connexion PDO + parseur .env intégré
-├── .env.example        # Modèle de configuration des identifiants SQL
+│   └── Database.php          # Classe Singleton de connexion PDO + parseur .env intégré
+├── utils/
+│   └── SessionManager.php    # Classe Singleton de gestion de session PHP
+├── .env.example              # Modèle de configuration des identifiants SQL
