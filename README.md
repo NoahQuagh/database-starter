@@ -1,6 +1,7 @@
-# PHP MySQL Database Starter Class
+# PHP Kit Starter Class
 
-Modèle de départ léger en PHP natif fournissant une classe `Database` basée sur le patron de conception **Singleton** autour de **PDO**, avec chargement automatique des variables d'environnement depuis un fichier `.env`.
+Modèle de départ léger en PHP natif fournissant une classe `Database` basée sur le patron de conception **Singleton** autour de **PDO**, avec chargement automatique des variables d'environnement depuis un fichier `.env`,
+plus un modèle de départ de la classe `SessionManager` pour la gestion des sessions PHP.
 
 ## Structure du modèle
 
